@@ -33,6 +33,10 @@ font-size: 22px;
  font-size:18px;
  color: black;
 }
+.right a:hover{
+   color: rgb(132, 203, 173)
+
+}
 .content{
     margin-left: 8%;
     margin-top: 15%;
@@ -141,13 +145,20 @@ span{
 }
 .left3{
    border-radius: 30px;
-   background-color: rgb(26, 236, 255);
+   background-color: rgb(26, 36, 55);
    text-align: center;
    margin: 30px;
    padding: 20px;
    height: 400px;
    width: 400px;
    border: 2px solid #212121;
+   transition: all  .45s ease-in-out;
+
+}
+.left3:hover{
+   outline: 2px solid  #41c5ea;
+   scale: 1.1;
+
 }
 .left3 button {
    margin: 20px;
@@ -161,7 +172,7 @@ span{
 }
 .mid3{
    border-radius: 30px;
-   background-color: rgb(26, 236, 255);
+   background-color: rgb(26, 36, 55);
 
    text-align: center;
    margin: 30px;
@@ -169,6 +180,13 @@ span{
    height: 400px;
    width: 400px;
    border: 2px solid #212121;
+   transition: all  .45s ease-in-out;
+
+}
+.mid3:hover{
+   outline: 2px solid  #41c5ea;
+   scale: 1.1;
+
 }
 .mid3 button{
    margin: 20px;
@@ -181,7 +199,7 @@ span{
     transition: all .45s ease-in-out;
 }
 .right3{
-   background-color: rgb(26, 236, 255);
+   background-color: rgb(26, 36, 55);
 
    border-radius: 30px;
    text-align: center;
@@ -190,6 +208,13 @@ span{
    height: 400px;
    width: 400px;
    border: 2px solid #212121;
+   transition: all  .45s ease-in-out;
+
+}
+.right3:hover{
+   scale: 1.1;
+   outline: 2px solid  #41c5ea;
+
 }
 .right3 button{
    margin: 20px;
@@ -200,4 +225,46 @@ span{
     border: none;
     border-radius: 8px;
     transition: all .45s ease-in-out;
+}
+.page4{
+height: 100vh;
+
+}
+.content4{
+   height: 15rem;
+   display: flex;
+   justify-content: space-evenly;
+   background-color: #333;
+   /* margin: 0px; */
+   text-align: center;
+   text-transform: capitalize;
+   color: white;
+}
+.content-text p{
+  margin: 15px;
+  transition: all .05s;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+.content-text p:hover{
+   color: rgb(135, 102, 233);
+   outline: rgb(114, 114, 171);
+   border-bottom: 2px solid black;
+   cursor: pointer;
+}
+.content-text i{
+   margin-top: 50px;
+   margin: 5px;
+   font-size: 20px;
+   border-radius: 10px;
+   transition: all .05s;
+
+}
+.content-text i:hover{
+   cursor: pointer;
+color: rgb(7, 16, 182);
+}
+ .content4 h1{
+   text-align: center;
+   background-color: yellowgreen;
 }
